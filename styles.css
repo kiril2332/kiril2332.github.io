@@ -90,8 +90,8 @@ body {
     margin-top: 50px;
     border-radius: 5%;
     background-color: #1e5128;
-    width: 900px;
-    height: 600px;
+    width: 60%;
+    height: 85%;
     border: 2px solid #afbe8a;
 }
 
@@ -198,8 +198,8 @@ body {
     margin-top: 50px;
     border-radius: 5%;
     background-color: #1e5128;
-    width: 900px;
-    height: 600px;
+    width: 60%;
+    height: 85%;
     border: 2px solid #afbe8a;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -244,8 +244,8 @@ body {
     margin-top: 50px;
     border-radius: 5%;
     background-color: #1e5128;
-    width: 900px;
-    height: 600px;
+    width: 60%;
+    height: 85%;
     border: 2px solid #afbe8a;
 }
 
