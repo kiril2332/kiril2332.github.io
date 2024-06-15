@@ -228,7 +228,7 @@ body {
 
 #hobbies-text p {
     font-size: 1rem;
-    width: 18rem;
+    width: 100%;
     color: #D8E9A8;
     text-align: justify;
     font-weight: 300;
