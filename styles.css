@@ -96,7 +96,7 @@ body {
 }
 
 #about-me-text h2 {
-    margin: 50px 0 0;
+    margin: 3rem 0 0;
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 3rem;
@@ -106,16 +106,17 @@ body {
 }
 
 #about-me-text p {
-    width: 45%;
+    font-size: 1rem;
+    width: 50%;
     color: #D8E9A8;
     text-align: justify;
     float: left;
-    margin-left: 20px;
+    margin-left: 1.5rem;
     font-weight: 300;
 }
 
 #about-me-text p:nth-child(2){
-    margin-top: 50px;
+    margin-top: 2rem;
 }
 
 
@@ -127,8 +128,8 @@ body {
 #about-me-text img {
     float: right;
     width: 40%;
-    margin-right: 20px;
-    margin-top: 50px;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
     border-radius: 5%;
 }
 
@@ -376,6 +377,6 @@ body {
 #contact h4 {
     margin: 0;
     position: relative;
-    top: 140px;
+    top: 9rem;
 }
 
