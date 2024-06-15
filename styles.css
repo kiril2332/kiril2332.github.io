@@ -391,6 +391,17 @@ body {
 }
 
 @media (min-height: 900px){
+    #about-me-text {
+        height: 75%;
+    }
+
+    #hobbies-text {
+        height: 75%;
+    }
+
+    #skills-text {
+        height: 75%;
+    }
     #about-me-text p{
         font-size: 1.1rem;
     }
