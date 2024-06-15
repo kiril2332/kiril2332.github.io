@@ -286,16 +286,6 @@ body {
     font-size: 0.9rem;
 }
 
-#skills-text h3:nth-of-type(2) {
-    /*!*margin: 0 0rem 0 0;*!*/
-    /*text-transform: lowercase;*/
-    /*!*font-style: italic;*!*/
-    /*font-size: 1.5rem;*/
-    /*color: #D8E9A8;*/
-    /*font-weight: 400;*/
-    /*font-family: 'DM Sans', sans-serif ;*/
-}
-
 
 #skills-text img {
     margin-right: 1.5rem;
@@ -308,16 +298,6 @@ body {
     clear: both;
     float: left;
     width: 35%;
-}
-
-#skills-text ul:nth-of-type(2) {
-    /*color: #D8E9A8;*/
-    /*margin: 10px 20px 0 0;*/
-    /*text-align: start;*/
-    /*width: 50%;*/
-    /*clear: both;*/
-    /*float: none;*/
-    /*font-size: 0.9rem;*/
 }
 
 #soft {
@@ -380,5 +360,67 @@ body {
     margin: 0;
     position: relative;
     top: 8rem;
+}
+
+@media (min-height: 700px){
+    #about-me-text {
+        height: 75%;
+    }
+
+    #hobbies-text {
+        height: 75%;
+    }
+
+    #skills-text {
+        height: 75%;
+    }
+}
+
+@media (min-height: 845px) {
+    #about-me-text {
+        height: 65%;
+    }
+
+    #hobbies-text {
+        height: 65%;
+    }
+
+    #skills-text {
+        height: 65%;
+    }
+}
+
+@media (min-height: 900px){
+    #about-me-text p{
+        font-size: 1.1rem;
+    }
+
+    #hobbies-text p {
+        font-size: 1.1rem;
+    }
+
+    #skills-text ul{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-height: 1050px){
+    #about-me-text p{
+        font-size: 1.3rem;
+    }
+
+    #hobbies-text p {
+        font-size: 1.3rem;
+    }
+
+    #skills-text ul{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-height: 730px){
+    #skills-text ul{
+        font-size: 0.8rem;
+    }
 }
 
