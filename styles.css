@@ -203,15 +203,15 @@ body {
     height: 85%;
     border: 2px solid #afbe8a;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 0.5fr auto auto;
     padding: 0 1rem 2rem 1rem;
-    grid-gap: 1rem;
+    gap: 1rem;
     justify-items: center;
 }
 
 #hobbies-text img {
-    width: 18rem;
+    width: 100%;
     border-radius: 5px;
 }
 
