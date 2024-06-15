@@ -205,19 +205,19 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 1fr 1fr;
-    padding: 0 30px 30px 30px;
-    grid-gap: 30px;
+    padding: 0 1rem 2rem 1rem;
+    grid-gap: 1rem;
     justify-items: center;
 }
 
 #hobbies-text img{
-    width: 275px;
-    height: 190px;
+    width: 18rem;
+    height: 12rem;
     border-radius: 5px;
 }
 
 #hobbies-text h2 {
-    margin: 50px 0 0;
+    margin: 3rem 0 0;
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 3rem;
@@ -228,6 +228,7 @@ body {
 }
 
 #hobbies-text p {
+    font-size: 1rem;
     color: #D8E9A8;
     text-align: justify;
     font-weight: 300;
