@@ -362,7 +362,7 @@ body {
     top: 8rem;
 }
 
-@media (min-height: 700px){
+@media (min-height: 710px){
     #about-me-text {
         height: 75%;
     }
